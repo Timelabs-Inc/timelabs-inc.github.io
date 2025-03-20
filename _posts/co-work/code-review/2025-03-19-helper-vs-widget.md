@@ -1,15 +1,18 @@
-
 ---
 title: Flutter Widget 반환 메서드
 categories: [co-work, code-review]
-tags: [flutter] # TAG names should always be lowercase
+tags: [flutter]
 author: roky
 ---
 
 ## Issue 
 
-# Widget을 코드로 표현하기
-## 방법
+<img src="/public/paste-image/2025-03-19-test/2025-03-19-15-28-51.png" width="100%" />
+
+## Widget을 코드로 표현하기
+
+### 방법
+
 <img src="/public/paste-image/2025-03-19-test/2025-03-19-1.png" width="100%" />
 
 ```dart
@@ -64,6 +67,7 @@ class MyDismissibleCard extends StatelessWidget {
 여기까지만 보았을 때에는 헬퍼메서드를 쓰는것이 코드수로 보았을 때나 사용성을 보았을 때 훨씬 더 깔끔한 느낌을 받습니다. 하지만 정말 헬퍼메서드를 사용해서 위젯을 나타내는것이 좋을까요?
 
 ### 별개의 위젯을 선호하는 이유들
+
 아쉽게도 우리의 직관(?)과는 다르게 몇가지의 단점들이 존재한다고 합니다.
 
 예를들어 아래와 같은 코드가 있다고 합시다.
@@ -103,11 +107,3 @@ provider, riverpod의 창시자인 Remi Rousselet 또한 아래와 같은 말을
 "클래스는 더 나은 방식을 갖는다. 메서드의 유일한 이점은 아주 약간 적게 코드를 작성한다는 것인데, 기능적인 이점은 없습니다."
 
 하나의 프로젝트에서 위젯을 나타낼 때에 클래스, 함수 2가지 방법을 모두 이용해서 나타낼 수 있지만 프로젝트 코드의 일관성을 위해 되도록 클래스를 이용하여 위젯을 나타내야겠습니다.
-
-
-<img src="/public/paste-image/2025-03-19-test/2025-03-19-15-28-51.png" width="100%" />
-
-
-
-<img src="/public/paste-image/2025-03-19-test/2025-03-19-15-28-23.png" width="100%" />
-
