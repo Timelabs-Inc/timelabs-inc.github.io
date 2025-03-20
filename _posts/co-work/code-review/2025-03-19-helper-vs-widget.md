@@ -7,13 +7,14 @@ author: roky
 
 ## Issue 
 
-<img src="/public/paste-image/2025-03-19-test/2025-03-19-15-28-51.png" width="100%" />
+<img src="/public/paste-image/2025-03-19-test/2025-03-19-15-28-51.png" alt="Flutter Widget Issue" width="100%" />
 
 ## Widget을 코드로 표현하기
 
 ### 방법
 
-<img src="/public/paste-image/2025-03-19-test/2025-03-19-1.png" width="100%" />
+<img src="/public/paste-image/2025-03-19-test/2025-03-19-1.png" alt="Flutter Widget 방법" width="100%" />
+
 
 ```dart
 class MyWidget extends StatelessWidget {
